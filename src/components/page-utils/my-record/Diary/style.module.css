@@ -1,0 +1,46 @@
+.row{
+  row-gap: 1rem;
+}
+.header{
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.1px;
+  margin-bottom: 0.5rem;
+}
+
+.record{
+  border: 2px solid #707070;
+  padding: 1rem;
+
+  .date, .time{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.09px;
+  }
+
+  .content {
+    margin-top: 1rem;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0.06px;
+  }
+}
+
+.btnWrapper{
+  text-align: center;
+  margin-top: 2rem;
+
+  .moreBtn {
+    background: linear-gradient(32.95deg, #FFCC21 8.75%, #FF963C 86.64%);
+    border-radius: 2px;
+    padding: 0.5rem 2rem;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    color: var(--white);
+    text-align: center;
+  }
+}

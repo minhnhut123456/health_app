@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+img{
+  vertical-align: middle;
+  border-style: none;
+}
+
+button{
+  outline: none;
+  border: none;
+}
+
+body {
+  font-family: 'Be Vietnam', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  color: var(--grey);
+  margin: 0;
+}
+
+:root {
+  --orange: #FF963C;
+  --blue: #1e90ff;
+  --yellow: #FFCC21;
+  --black: #2E2E2E;
+  --grey: #414141;
+  --white: #ffffff;
+}

@@ -1,0 +1,47 @@
+.row{
+  row-gap: 2rem;
+}
+
+.item{
+  width: 100%;
+  position: relative;
+  padding: 1.5rem;
+  background: var(--yellow);
+
+  img{
+    width:100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
+
+  .text{
+    position: absolute;
+    width: 100%;
+    top:50%;
+    left: 0;
+    text-align: center;
+    transform: translate(0, -50%);
+  }
+
+  .colTitle{
+    margin-bottom: 0.5rem;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.125px;
+    font-weight: 400;
+    color: var(--yellow);
+  }
+
+  .colDescription{
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    width: 160px;
+    padding: 0.5rem 0;
+    color: var(--white);
+    background: var(--orange);
+  }
+}
+

@@ -1,0 +1,11 @@
+.wrapper{
+  padding: 2rem 0;
+
+  @media (min-width: 576px) {
+    padding: 2rem 3rem;
+  }
+
+  @media (min-width: 768px) {
+    padding: 2rem 8rem;
+  }
+}

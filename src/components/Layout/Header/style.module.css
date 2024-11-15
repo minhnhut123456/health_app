@@ -1,0 +1,35 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  height: 64px;
+  padding: 0.5rem 3rem;
+  background: var(--grey);
+  justify-content: space-between;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    padding: 0.5rem 8rem;
+  }
+}
+
+.logo{
+  cursor: pointer;
+}
+
+.navsWrapper {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+.navTitle{
+  color: var(--white);
+}

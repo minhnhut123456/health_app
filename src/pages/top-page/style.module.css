@@ -1,0 +1,11 @@
+.wrapperRecords{
+  padding: 1rem 0;
+
+  @media (min-width: 576px) {
+    padding: 1rem 3rem;
+  }
+
+  @media (min-width: 768px) {
+    padding: 1rem 8rem;
+  }
+}
