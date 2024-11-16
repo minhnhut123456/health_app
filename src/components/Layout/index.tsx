@@ -1,6 +1,8 @@
 import { ReactNode } from 'react';
 
+import Footer from './Footer';
 import Header from './Header';
+import ScrollTop from './ScrollTop';
 import classes from './style.module.css';
 
 const Layout = ({ children }: { children: JSX.Element | ReactNode }): JSX.Element => {
@@ -8,7 +10,8 @@ const Layout = ({ children }: { children: JSX.Element | ReactNode }): JSX.Elemen
     <div className={classes.wrapper}>
       <Header />
       {children}
-      {/* <Footer /> */}
+      <ScrollTop />
+      <Footer />
     </div>
   );
 };
