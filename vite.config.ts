@@ -12,11 +12,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
   return {
     // vite config
-    plugins: [
-      react(),
-      tsconfigPaths(),
-      svgr(),
-    ],
+    plugins: [react(), tsconfigPaths(), svgr()],
     server: {
       port: 3003,
       host: true,

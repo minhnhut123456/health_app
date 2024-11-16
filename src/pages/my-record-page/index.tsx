@@ -1,3 +1,4 @@
+import Chart from '#/components/page-utils/my-record/Chart';
 import Diary from '#/components/page-utils/my-record/Diary';
 import Excercises from '#/components/page-utils/my-record/Excercises';
 import Intro from '#/components/page-utils/my-record/Intro';
@@ -10,6 +11,10 @@ const MyRecordPage = () => {
   return (
     <div className={classes.wrapper}>
       <Intro />
+      <Spacing my='2rem'>
+        <Chart />
+      </Spacing>
+
       <Spacing my='2rem'>
         <Excercises data={EXCERCISE} />
       </Spacing>

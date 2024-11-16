@@ -1,0 +1,13 @@
+.wrapper{
+  height: 100%;
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--black);
+
+  .chart{
+    width: 100%;
+  }
+}

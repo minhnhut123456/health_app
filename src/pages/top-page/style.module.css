@@ -1,3 +1,6 @@
+.row{
+  row-gap: 1rem;
+}
 .wrapperRecords{
   padding: 1rem 0;
 

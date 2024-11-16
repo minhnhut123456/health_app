@@ -1,17 +1,15 @@
+.row{
+  row-gap: 1rem;
+}
 .wrapper {
   width: 100%;
-  display: flex;
-  gap: 3rem;
-  height: 128px;
-  padding: 0.5rem 3rem;
+  padding: 2rem 3rem;
   background: var(--grey);
-  align-items: center;
-  justify-content: space-around;
   color: var(--white);
   font-weight: 300;
   font-size: 11px;
 
   @media (min-width: 768px) {
-    padding: 0.5rem 8rem;
+    padding: 2rem 8rem;
   }
 }

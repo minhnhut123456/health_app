@@ -1,0 +1,63 @@
+.outer{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.wrapper{
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--black);
+  
+  .header {
+    color: var(--white);
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 1rem;
+  
+    .title{
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 18px;
+      letter-spacing: 0.15px;
+    }
+  
+    .date{
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 27px;
+      letter-spacing: 0.11px;
+    }
+  }
+
+  .chart{
+    width: 100%;
+  }
+
+  .chartBtns{
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.75rem;
+
+    .chartBtn{
+      background: var(--white);
+      color: var(--yellow);
+      border-radius: 11px;
+      opacity: 0px;
+      padding: 0.25rem 1.5rem;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 22px;
+      text-align: center;
+    }
+
+    .activeChartBtn{
+      background: var(--yellow);
+      color: var(--white);
+    }
+  }
+
+  
+}
