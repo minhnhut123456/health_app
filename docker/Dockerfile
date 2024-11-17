@@ -4,13 +4,13 @@ RUN apk update && apk add --no-cache git jq
 WORKDIR /app
 
 COPY package.json package-lock.json /app/
-RUN yarn install
+RUN npm install
 
 COPY . /app
 RUN jq -c 'del(.dependencies, .devDependencies)' package.json > tmp.$$.json && mv tmp.$$.json package.json
-RUN yarn build
+RUN npm run build
 
-FROM nginx:1.23-alpine AS release
+FROM nginx:1.27-alpine AS release
 
 WORKDIR /app
 COPY --from=powerman/dockerize:0.19.0 /usr/local/bin/dockerize /usr/local/bin/dockerize
