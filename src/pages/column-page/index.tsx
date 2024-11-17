@@ -1,4 +1,4 @@
-import ColumnComponent from '#/components/page-utils/columns/Columns';
+import ColumnComponent from '#/components/page-utils/column/Column';
 import { COLUMN_RECORDS } from '#/mockData';
 
 import classes from './style.module.css';

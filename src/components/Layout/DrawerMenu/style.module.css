@@ -1,0 +1,10 @@
+.item{
+  padding: 1rem;
+  min-width: 280px;
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+  cursor: pointer;
+  background: #777777;
+}

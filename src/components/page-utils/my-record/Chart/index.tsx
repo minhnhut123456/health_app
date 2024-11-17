@@ -81,7 +81,6 @@ const Chart = ({ style }: Props) => {
   const [active, setActive] = useState<SeriesKey>(seriesKey.D);
 
   const drawChart = useCallback((interval: SeriesKey) => {
-    console.log(interval, 'vjdsnvjh');
     if (ref.current) {
       const container = ref.current;
       container.innerHTML = '';

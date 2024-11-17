@@ -4,7 +4,7 @@
 
 
 ```bash
-  nvm use 20
+  nvm use 18
   npm install
 ```
 
